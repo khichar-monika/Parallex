@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: #f2f2f2;
+
+}
+
+h1{
+    font-size: 120px;
+    text-align: center;
+    color:rgba(255,255,255,.4);
+}
+
+.parallax1{
+    background: url('pexels-ahmetkurt-12661193.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax2{
+    background: url('pexels-arzu-madadova-1526652205-27222169.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax3{
+    background: url('pexels-harvey-clements-13141095-15763644.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-inner{
+    padding:10% 0;
+}
+
+h2{
+    font-size: 32px;
+    color:#555;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin:20px 0 10px;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+    color:#555;
+    line-height:30px;
+    margin:0 50px 40px;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3){
+margin:40px 50px;
+}
